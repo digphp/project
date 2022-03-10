@@ -1,6 +1,6 @@
 <?php
 
-use Ebcms\Framework\Framework;
+use DigPHP\Framework\Framework;
 
 require __DIR__ . '/../vendor/autoload.php';
 
