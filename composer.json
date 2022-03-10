@@ -1,0 +1,15 @@
+{
+    "name": "digphp/project",
+    "description": "DigPHP工程框架",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "GPL-3.0",
+    "scripts": {
+        "post-package-install": "DigPHP\\Framework\\Script::onInstall",
+        "post-package-update": "DigPHP\\Framework\\Script::onUpdate",
+        "pre-package-uninstall": "DigPHP\\Framework\\Script::onUninstall"
+    },
+    "require": {
+        "digphp/framework": "^1.0"
+    }
+}
